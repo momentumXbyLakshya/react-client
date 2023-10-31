@@ -39,7 +39,7 @@ Many individuals struggle with consistency when trying to adopt new habits or el
 ### Prerequisites
 
 1. You need to have `node` (preferably version `>=18`) installed on your system to run this locally. <a href="https://nodejs.org">Download</a>.
-2. You must set up and start the backend for this app. Find it here <a href="https://nodejs.org](https://github.com/momentumXbyLakshya/express-server">Server</a>.
+2. You must set up and start the backend for this app. Find it here <a href="https://github.com/momentumXbyLakshya/express-server">Server</a>.
 
 ### Steps to follow
 
