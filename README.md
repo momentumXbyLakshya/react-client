@@ -30,9 +30,9 @@ Many individuals struggle with consistency when trying to adopt new habits or el
 
 - Users can create personalized habits and customize them based on difficulty, with options for positive or negative. Positive habits will include habits that user wants to develop. Negative habits will include habits that the user wants to get rid of. Users can also configure habits based on whether they are daily habits, or monthly, or yearly.
 
-### Habit Tracking
+### Habit Tracking with Gamification
 
-- When a user completes a task for a habit
+- When a user completes a task for a habit, if it's a positive habit, the user is rewarded with points, if it's a negative habit, the user's health is reduced. Once, the points of the user reach 100, the level of the user is increased and the health is redeemed to 100.
 
 ## Setup Locally
 
