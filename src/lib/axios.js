@@ -1,8 +1,6 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-axios.defaults.withCredentials = true;
-
 export const axiosInstance = axios.create({
   baseURL: `${process.env.REACT_APP_BACKEND_URI}/api`,
   timeout: 20000,
