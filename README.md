@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# MomentumX - Gamified Habit Tracker with Passkey Authentication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MomentumX is a gamified habit tracker that leverages Hanko's passkey authentication for secure user login and registration. Users can create personalized habits, monitor their progress through health and experience points, and strive towards self-improvement.
 
-## Available Scripts
+## Problem Statement
 
-In the project directory, you can run:
+Many individuals struggle with consistency when trying to adopt new habits or eliminate bad ones. HabitHero aims to address this challenge by providing a fun and engaging platform that encourages users to stay motivated, track their progress, and achieve their goals.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Passkey Authentication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Integrated Hanko's passkey authentication for a secure and user-friendly login process.
 
-### `npm test`
+### Avatar Creation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Users can set up their profiles by entering their name and selecting an avatar.
 
-### `npm run build`
+### User Dashboard 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Displays the user's health and experience bars, offering a visual representation of their progress and achievements.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Habit Creation and Customization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Users can create personalized habits and customize them based on difficulty, with options for positive or negative. Positive habits will include habits that user wants to develop. Negative habits will include habits that the user wants to get rid of. Users can also configure habits based on whether they are daily habits, or monthly, or yearly.
 
-### `npm run eject`
+### Habit Tracking
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- When a user completes a task for a habit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this app locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone this repository. You need to have `bun` installed on your system to run this locally.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Install the necessary dependencies using the package manager of your choice.
+   ```bash
+   bun install
+   ```
+3. Start the app on localhost.
+   ```bash
+   bun start
+   ```
