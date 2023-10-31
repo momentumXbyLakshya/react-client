@@ -11,14 +11,20 @@ Many individuals struggle with consistency when trying to adopt new habits or el
 ### Passkey Authentication
 
 - Integrated Hanko's passkey authentication for a secure and user-friendly login process.
+![Screenshot from 2023-10-31 13-19-18](https://github.com/momentumXbyLakshya/react-client/assets/81241551/272281df-a0ab-444d-aaa6-1f07818ebee5)
+
 
 ### Avatar Creation
 
 - Users can set up their profiles by entering their name and selecting an avatar.
+![Screenshot from 2023-10-31 13-36-38](https://github.com/momentumXbyLakshya/react-client/assets/81241551/97c27a4b-9d11-4c7b-97f7-9369a4413ebc)
+
 
 ### User Dashboard
 
 - Displays the user's health and experience bars, offering a visual representation of their progress and achievements.
+![Screenshot from 2023-10-31 13-38-00](https://github.com/momentumXbyLakshya/react-client/assets/81241551/915f76e1-ab44-4f6d-be56-c037318532f8)
+
 
 ### Habit Creation and Customization
 
