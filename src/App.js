@@ -44,7 +44,7 @@ function App() {
         axiosInstance
           .get(`/user/${detail.userID}`)
           .then((res) => {
-            const user = res.data.data.user;
+            const user = res.data.data?.user;
             if (user && user.name && user.avatar) {
               // already registered user
               handleCompleteUserAuth(token, user);
