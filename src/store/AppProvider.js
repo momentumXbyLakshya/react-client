@@ -74,7 +74,8 @@ const AppContextProvider = ({ children }) => {
         .then(() => {
           navigate("/register");
         })
-        .catch(() => {
+        .catch((e) => {
+          console.log(e);
           toast.error("Something went Wrong");
         });
     },
